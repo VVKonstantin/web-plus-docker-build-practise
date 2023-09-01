@@ -5,4 +5,4 @@ WORKDIR /home/ilovedocker/app
 
 EXPOSE 3032
 
-CMD ["node", "main.js"]
+ENTRYPOINT ["node", "main.js"]
