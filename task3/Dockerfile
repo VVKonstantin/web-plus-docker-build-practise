@@ -1,8 +1,8 @@
 FROM node:16-alpine
 
 # создание директории приложения
-WORKDIR /home/ilovedocker/app
+WORKDIR /usr/src/app1
 
 EXPOSE 3032
 
-ENTRYPOINT ["node", "main.js"]
+CWD ["node", "main.js"]
